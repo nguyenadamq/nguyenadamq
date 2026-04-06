@@ -63,20 +63,48 @@ I enjoy working at the intersection of backend systems, data processing, and pro
 
 ## 🛠 Tech Stack
 
-**Languages**
-- Python, TypeScript, JavaScript, SQL, C, C++
+## 🛠 Tech Stack
 
-**Backend**
-- Node.js, Express, Django, REST APIs, AsyncIO
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-**Systems**
-- Distributed Systems, Concurrency, System Design, Data Modeling
+---
 
-**Databases**
-- PostgreSQL, MySQL, SQLite, SQL Server
+### Backend & Frameworks
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-**Infra / Tools**
-- AWS EC2, Docker, CI/CD, Linux
+---
+
+### Systems & Concepts
+![Distributed Systems](https://img.shields.io/badge/Distributed%20Systems-4A90E2?style=for-the-badge)
+![Concurrency](https://img.shields.io/badge/Concurrency-FF6F00?style=for-the-badge)
+![System Design](https://img.shields.io/badge/System%20Design-6A1B9A?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-00897B?style=for-the-badge)
+
+---
+
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
+---
+
+### Cloud & Tools
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
