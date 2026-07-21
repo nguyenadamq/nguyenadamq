@@ -35,7 +35,7 @@ My strongest interests include:
 * Automated live PDF and DOCX ingestion and re-indexing
 * Supported identity access management, RBAC, and account lifecycle workflows
 
-### Software Engineer — In Time of Need
+### Software Engineer — In Time of Need (Volunteer)
 
 `Node.js · TypeScript · React · REST APIs`
 
