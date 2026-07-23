@@ -2,7 +2,7 @@
 
 I'm a **backend-focused Software Engineer** who builds reliable systems for workflow automation, data processing, search, and product-driven applications.
 
-I currently work as a **Software Engineer I at Project vNext**, developing financial technology products and client applications using **Go, PostgreSQL, HTMX, Docker, and AWS**.
+I currently work as a **Software Engineer I at Project vNext**, developing technology products and client applications using **Go, PostgreSQL, HTMX, Docker, and AWS**.
 
 My strongest interests include:
 
