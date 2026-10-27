@@ -1,204 +1,199 @@
-# Hi, I'm Adam Nguyen 👋
+<div align="center">
 
-I'm a **backend-focused Software Engineer** who builds reliable systems for workflow automation, data processing, search, and product-driven applications.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=200&section=header&text=Adam%20Nguyen&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Cloud%20Infrastructure&descAlignY=60&descSize=18" alt="Adam Nguyen - Backend, Distributed Systems, Cloud Infrastructure" />
 
-I currently work as a **Software Engineer I at Project vNext**, developing technology products and client applications using **Go, PostgreSQL, HTMX, Docker, and AWS**.
+<a href="https://github.com/nguyenadamq"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=640&lines=Software+Engineer+I+%40+Project+vNext;I+build+reliable+event-driven+backends;Go+%C2%B7+Python+%C2%B7+TypeScript+%C2%B7+AWS;Oregon+State+CS+%2726" alt="Typing animation" /></a>
 
-My strongest interests include:
+<br/>
 
-* Backend systems and API design
-* Workflow automation and data pipelines
-* Concurrency and distributed processing
-* Search, retrieval, and AI-assisted applications
-* Data modeling and system architecture
-* Building software around real user workflows
+<a href="https://www.linkedin.com/in/adam-q-nguyen"><img src="https://img.shields.io/badge/LinkedIn-adam--q--nguyen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:nguyenadamq@gmail.com"><img src="https://img.shields.io/badge/Email-nguyenadamq@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<img src="https://img.shields.io/badge/Based_in-Oregon-0f172a?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Oregon" />
+
+</div>
+
+---
+
+## 👋 About
+
+I'm a **backend-focused software engineer** who likes the unglamorous parts of systems that make them trustworthy: retries, idempotency, backpressure, observability, and schemas that don't break the people who depend on them.
+
+I just finished my **B.S. in Computer Science at Oregon State University** and now work on the backend of a mobile app that reaches **over a million users**. Outside of work I build self-hosted tools for the things I'd otherwise do by hand: tracking jobs, scheduling my week, and answering questions over documents.
+
+```go
+type Adam struct {
+    Role     string   // Software Engineer I, Project vNext
+    Focus    []string // event-driven backends, APIs, cloud infrastructure
+    Daily    []string // Go, Python, TypeScript, PostgreSQL, AWS, Terraform
+    Exploring []string // retrieval + LLM tooling, Swift/SwiftUI
+    Values   string   // boring, observable, well-tested systems
+}
+```
 
 ---
 
 ## 💼 Experience
 
-### Software Engineer I — Project vNext
+<table>
+<tr>
+<td width="170" valign="top"><b>Jul 2026 – Present</b></td>
+<td>
 
-`Go · PostgreSQL · HTMX · Templ · Docker · AWS`
+**Software Engineer I** · Project vNext *(Remote)*<br/>
+A new platform rolling out inside an existing mobile app used by **1M+ people**.
 
-* Build and maintain financial technology products and client applications
-* Implement features across backend and frontend systems
-* Contribute to architecture discussions, technical tradeoffs, and code reviews
-* Support containerized applications and CI/CD deployment workflows
+- Designed event-driven workflows on **AWS** (EventBridge, SQS, PostgreSQL, S3) with retries, dead-letter queues, replay and idempotent processing
+- Wrote reusable **Terraform/OpenTofu** modules with KMS encryption, least-privilege IAM, retention, versioning, TLS enforcement and automated validation
+- Evolved **Protocol Buffer / ConnectRPC** contracts across backend and Android while keeping them backward compatible; hardened APIs with error redaction
+- Built **Go** services and middleware, including per-platform minimum app-version enforcement, and a support-chat handoff feature
+- Improved **PostgreSQL** scalability and integrity: partitioned tables, reversible migrations, UUID idempotency keys, tests against real databases
 
-### IS Info Tech — Oregon State University
+<sub><code>Go</code> <code>PostgreSQL</code> <code>AWS</code> <code>Terraform</code> <code>gRPC</code> <code>ConnectRPC</code> <code>Protobuf</code> <code>Kotlin</code> <code>GitHub Actions</code></sub>
 
-`Node.js · TypeScript · PostgreSQL · Redis · Docker · RAG`
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Feb – Jul 2026</b></td>
+<td>
 
-* Built an internal documentation Q&A system that achieved **97% answer accuracy**
-* Designed a hybrid retrieval pipeline using **BM25, vector search, embeddings, and cross-encoder reranking**
-* Automated live PDF and DOCX ingestion and re-indexing
-* Supported identity access management, RBAC, and account lifecycle workflows
+**Information Systems Technician** · Oregon State University<br/>
+Built an internal documentation Q&A server: **97% answer accuracy, ~9s average query time.**
 
-### Software Engineer — In Time of Need (Volunteer)
+- Hybrid retrieval: **SQLite FTS5/BM25 + LanceDB vectors + Ollama embeddings + ONNX cross-encoder reranking**
+- File-watching ingestion that re-indexes PDF/DOCX as they change; everything containerized with Docker Compose
 
-`Node.js · TypeScript · React · REST APIs`
+<sub><code>Node.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code> <code>RAG</code></sub>
 
-* Reduced resource discovery time by **60%**
-* Built an ingestion and classification pipeline spanning **500+ external sources**
-* Eliminated **80% of manual aggregation workflows**
-* Designed validation and normalization systems for **300+ verified resources**
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Sep 2025 – Jun 2026</b></td>
+<td>
 
-### Software Engineering Intern — Qorvo
+**Software Engineer (Volunteer Platform)** · In Time of Need<br/>
+An AI-assisted pipeline that finds and classifies community resources for staff review.
 
-`Appian · SQL · Workflow Automation`
+- Cut resource discovery time by **60%** across **500+ websites**; improved dataset precision by **40%** over 300+ verified resources
+- OpenAI + Brave Search + Playwright pipeline feeding a React/Node review UI
 
-* Reduced approval processing time by **35%**
-* Built a multi-stage supply-chain workflow system
-* Implemented validation, access control, logging, and SQL persistence
-* Helped replace a legacy PHP application with a maintainable workflow platform
+<sub><code>TypeScript</code> <code>React</code> <code>Node.js</code> <code>Playwright</code> <code>OpenAI API</code></sub>
 
----
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Jun – Dec 2025</b></td>
+<td>
 
-## 🚀 Featured Projects
+**Software Engineering Intern** · Qorvo<br/>
+Cut manual approval time by **35%** with an Appian workflow for multi-stage supply-chain routing, and migrated a legacy PHP monolith to it with a staged rollout.
 
-### 🔍 Job Board Tracker
+<sub><code>Appian</code> <code>SQL</code> <code>PHP</code></sub>
 
-`Python · AsyncIO · Docker · AWS EC2 · Prometheus · Grafana`
-
-A distributed monitoring system that discovers, ingests, and deduplicates job listings across more than **1,000 Ashby, Greenhouse, and Lever job boards**.
-
-**Highlights**
-
-* Built high-concurrency ingestion workers with Python AsyncIO
-* Added retry, backoff, rate-limiting, and source-failure handling
-* Created Prometheus metrics and Grafana dashboards
-* Monitored provider errors, HTTP 429 spikes, job matches, and ingestion health
-* Deployed containerized services on AWS EC2
-
----
-
-### 🧠 Documentation Q&A Server
-
-`Node.js · TypeScript · PostgreSQL · Redis · LanceDB · Ollama · ONNX`
-
-An internal retrieval system for answering questions across live organizational documentation.
-
-**Highlights**
-
-* Achieved **97% answer accuracy**
-* Combined SQLite FTS5/BM25 with LanceDB vector retrieval
-* Generated local embeddings with Ollama
-* Ranked retrieved passages using an ONNX cross-encoder
-* Automated PDF and DOCX ingestion through a file-watching pipeline
-* Containerized the application and supporting services with Docker Compose
+</td>
+</tr>
+</table>
 
 ---
 
-### 📅 Task Pilot Schedule Optimizer
+## 🚀 Projects
 
-`React · Node.js · Express · Supabase · PostgreSQL`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A scheduling platform that turns tasks, deadlines, work hours, sleep, availability, and user preferences into an optimized seven-day calendar.
+### 🛰️ [Job Board Monitor](https://github.com/nguyenadamq/job-board-monitor)
+A self-hosted job intelligence platform tracking **5,400+ active sources** across **7 ATS providers**.
 
-**Highlights**
+- Async polling plane: AsyncIO, provider-isolated queues, 20 workers
+- Distributed scheduling with Postgres row leases and Redis token buckets
+- Prometheus + Grafana for success/429 rates, p95 latency, retries
+- Local Codex/Claude pipeline drafts tailored applications into a **human-reviewed queue**, never auto-submitted
 
-* Designed a deterministic scheduling engine with **nine tested scheduling scenarios**
-* Supported deadlines, task priority, splitting, buffers, and daily work limits
-* Implemented Supabase authentication and PostgreSQL row-level security
-* Built APIs for tasks, preferences, availability rules, and generated schedules
-* Automatically regenerated schedules when user inputs changed
+<sub><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code> <code>Grafana</code></sub>
 
----
+</td>
+<td width="50%" valign="top">
 
-### 🎾 Tennis Challenge Pal
+### 🗂️ [My Project Manager](https://github.com/nguyenadamq/my-project-manager)
+A private, mobile-first command center for local Git repos, running supervised **Claude (plan/review) + Codex (implement)** pipelines on isolated worktrees.
 
-`Next.js · React · Supabase · PostgreSQL · Tailwind CSS`
+<sub><code>TypeScript</code> <code>Git worktrees</code> <code>LLM tooling</code></sub>
 
-A full-stack platform for managing competitive tennis ladders, rankings, challenges, and club workflows.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-**Highlights**
+### 📅 [Task Pilot](https://github.com/nguyenadamq/task-pilot)
+Turns tasks, sleep, work windows and blocked time into an optimized **7-day calendar**.
 
-* Built five live leaderboards
-* Designed role-based workflows for members and officers
-* Implemented more than **10 protected API and RPC workflows**
-* Supported challenges, approvals, friend requests, doubles teams, and notifications
-* Added validation, authentication, and authorization throughout the application
+- Deterministic scheduling engine covered by nine scenarios
+- Supabase Auth + Postgres row-level security + Express REST API
 
----
+<sub><code>React</code> <code>Node.js</code> <code>Supabase</code> <code>Vite</code></sub>
 
-### 📄 Federal Document Intelligence Assistant
+</td>
+<td valign="top">
 
-`Python · FastAPI · React · OpenAI · AWS S3 · OpenSearch`
+### 🛡️ FlowGuard
+End-to-end network anomaly detection on NSL-KDD: PySpark features, scikit-learn Random Forest, served by a validated **FastAPI** endpoint on a two-replica **Kubernetes** deployment.
 
-A document search and Q&A application for uploaded federal PDFs.
+<sub><code>PySpark</code> <code>scikit-learn</code> <code>Docker</code> <code>Kubernetes</code></sub>
 
-**Highlights**
+</td>
+</tr>
+</table>
 
-* Built FastAPI endpoints for document upload, indexing, search, and Q&A
-* Stored source documents in AWS S3
-* Indexed extracted text in OpenSearch
-* Generated grounded answers with source citations
-* Added automated backend testing with pytest
-
----
-
-## 🛠 Technical Skills
-
-### Languages
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square\&logo=go\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square\&logo=postgresql\&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square\&logo=c\&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)
-
-### Backend and Web
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=nodedotjs\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square\&logo=django\&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square\&logo=express\&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=nextdotjs\&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square\&logo=react\&logoColor=61DAFB)
-
-### Data and Infrastructure
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square\&logo=amazonaws\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square\&logo=githubactions\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
-
-### Search and AI Systems
-
-`OpenSearch` · `LanceDB` · `SQLite FTS5/BM25` · `RAG` · `Vector Search` · `Embeddings` · `Cross-Encoder Reranking` · `OpenAI API` · `Ollama` · `ONNX Runtime`
+<sub>More public work: [TennisChallengePal](https://github.com/nguyenadamq/TennisChallengePal) · [Federal Document Intelligence Assistant](https://github.com/nguyenadamq/federal-document-intelligence-assistance) · [Corvallis Housing Bot](https://github.com/nguyenadamq/Corvallis-Housing-Bot-Public). Much of my other work lives in private repos.</sub>
 
 ---
 
-## 🎓 Education
+## 🧰 Tech stack
 
-**Bachelor of Science in Computer Science**
-Oregon State University — June 2026
-GPA: **3.66 / 4.00**
+<div align="center">
 
-Relevant coursework: Operating Systems, Algorithms, Databases, Distributed Systems, Networking, and Data Structures.
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=go,py,ts,js,swift,cpp,c,bash&theme=dark" alt="Languages" />
+
+**Backend & data**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,redis,sqlite,supabase&theme=dark" alt="Backend and data" />
+
+**Cloud & DevOps**<br/>
+<img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,githubactions,prometheus,grafana,linux&theme=dark" alt="Cloud and DevOps" />
+
+**Frontend & tooling**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,git,github,playwright&theme=dark" alt="Frontend and tooling" />
+
+</div>
+
+<details>
+<summary><b>Everything else I work with</b></summary>
+
+<br/>
+
+| | |
+|---|---|
+| **Backend** | gRPC, ConnectRPC, REST, Protovalidate, CEL, sqlc, pgx, asyncpg, httpx |
+| **Search & AI** | SQLite FTS5/BM25, LanceDB, OpenSearch, Ollama, ONNX Runtime, embeddings, cross-encoder reranking, OpenAI API |
+| **AWS** | EventBridge, SQS, S3, CloudWatch, IAM, KMS, LocalStack |
+| **Infra** | OpenTofu, Docker Compose, systemd, Oracle Cloud |
+| **Mobile** | SwiftUI, Swift concurrency, Kotlin (client integration) |
+
+</details>
 
 ---
 
-## 🎯 Currently Interested In
+## 🎯 Currently
 
-I'm especially interested in software engineering opportunities involving:
+- 🔧 Building event-driven backends and cloud infrastructure at Project vNext
+- 🛰️ Growing my job-intelligence platform and its observability
+- 📚 Going deeper on distributed systems, retrieval, and Swift
+- 🤝 Open to talking about backend, infrastructure, and platform engineering roles
 
-* Backend and platform engineering
-* Developer infrastructure
-* Workflow and business-process automation
-* Distributed data processing
-* Search and retrieval systems
-* Financial technology
-* Product-focused full-stack engineering
+<div align="center">
 
----
+<br/>
 
-## 📫 Connect With Me
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1d4ed8,100:0f172a&height=100&section=footer" alt="" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam_Nguyen-0A66C2?style=for-the-badge\&logo=linkedin)](https://linkedin.com/in/adam-q-nguyen)
-[![Email](https://img.shields.io/badge/Email-nguyenadamq%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:nguyenadamq@gmail.com)
+</div>
